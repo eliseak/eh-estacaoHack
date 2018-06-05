@@ -1,0 +1,96 @@
+1. Decisão:
+
+    Ler login
+    Ler senha
+
+    SE (conta existir) E (senha está correta):
+        Autorizar
+    SENÃO:
+        Não Autorizar
+    
+2. Repetição:
+
+    Definir que são 3 tentativas
+    Ler senha
+
+    ENQUANTO (errar senha) E (houver tentativas) REPETIR:
+        Perde uma tentativa
+        Pedir senha
+
+==================================================================
+
+Exercício 1:
+    Você tem um baralho.
+    Você não sabe quantas cartas tem tem o baralho, nem quais são as cartas disponíveis.
+    A tarefa é encontrar um 3 de copas no baralho. 
+    Se encontrar, dizer que ENCONTROU. Se não, dizer que NÃO ENCONTROU.
+
+Resposta:
+    Considerar que monte1 igual ao baralho
+    SE (houver cartas no monte1):
+        ENQUANTO (houver cartas no monte1) REPETIR:
+            Ler a carta no topo do monte1
+            SE (número da carta é 3) E (desenho da carta é de coração vermelho):
+                ENCONTROU
+            SENÃO:
+                Colocar em monte2
+                NÃO FOI DESSA VEZ
+                SE (não houver cartas no monte1)
+                    NÃO ENCONTROU
+    SENÃO:
+        NÃO ENCONTROU
+
+-------------------------------------------------
+
+    ENQUANTO (houver cartas no baralho) REPETIR:
+
+        Ler a carta no topo do baralho
+        SE (número da carta é 3) E (desenho da carta é de coração vermelho):
+            ENCONTROU
+            Encerrar procura 
+        SENÃO:
+            Descarta a carta lida
+            NÃO FOI DESSA VEZ
+
+    NÃO ENCONTROU
+-------------------------------------------------
+
+ENQUANTO (houveram cartas sobre a mesa) REPETIR:
+    - pegar uma próxima carta da mesa
+    - SE (carta pega tiver um 3) E (a carta pega tiver um coração)
+        Responder: ENCONTROU
+        Parar.
+    - SENÃO: descarta a carta no lixo
+
+Responder: NÃO ENCONTROU
+
+-------------------------------------------------
+
+Fazer com que o usuário possa especificar a carta a ser procurada:
+
+Ler naipe procurado
+Ler número procurado
+ENQUANTO (houveram cartas sobre a mesa) REPETIR:
+    - pegar uma próxima carta da mesa
+    - SE (carta tiver o naipe procurado) E (carta pega ao valor procurado)
+        Responder: ENCONTROU
+        Parar.
+    - SENÃO: descarta a carta no lixo
+
+Responder: NÃO ENCONTROU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
