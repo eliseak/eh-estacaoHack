@@ -1,0 +1,29 @@
+Exercício:
+Melhorar a eficiência do exercício de baralho levando em consideração o exercício de hoje.
+
+
+Lista do valor para cada símbolo:
+ - A = 1
+ - 2 = 2
+ - 3 = 3
+ - 4 = 4
+ - 5 = 5
+ - 6 = 6
+ - 7 = 7
+ - 8 = 8
+ - 9 = 9
+ - 10 = 10
+ - J = 11
+ - Q = 12
+ - K = 13
+
+Lista de NAIPES:
+- COPAS = coração vermelho
+- OUROS = diamente vermelho
+- ESPADAS = coração preto com um pequeno triângulo
+- PAUS = árvore preta
+
+Perguntar e lembrar qual é o SIMBOLO.
+Perguntar e lembrar qual é o NAIPE.
+
+>> Problema não possui nenhum tipo de ordenação
