@@ -1,0 +1,30 @@
+Correção do exercício da aula anterior:
+    Perguntar e lembrar qual é o SIMBOLO.
+    Perguntar e lembrar qual é o NAIPE.
+
+    Lista de NAIPES:
+    - COPAS = coração vermelho
+    - OUROS = diamente vermelho
+    - ESPADAS = coração preto com um pequeno triângulo
+    - PAUS = árvore preta
+
+    Colocar o baralho sobre a mesa
+
+    ENQUANTO (houver cartas) REPETIR:
+        Pegar a próxima cartas
+        SE (simbolo for o SIMBOLO) E (desenho for a descrição do NAIPE):
+            Responder ENCONTROU
+            Parar
+        SENÃO
+            Descartar a carta
+            Continuar
+
+    Responder NÃO ENCONTROU
+
+----------------------------------------------------------
+O exercício anterior é um problema de busca linear.
+----------------------------------------------------------
+
+
+
+
