@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: slateblue;
+    height: 60px;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    color: whitesmoke;
+    
+}
+
+.logo{
+    margin-right: 50%;
+}
+
+.links{
+    width: 100%;
+}
+
+.links li{
+    float: left;
+    margin-right: 7%;
+}
+
+.home img{
+    width: 100%;
+}
+
+.titulo-secao{
+    text-align: center;
+}
+
+.texto-sobre{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card{
+    height: 500px;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    margin-left: 5%;
+}
