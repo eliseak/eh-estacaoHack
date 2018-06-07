@@ -1,0 +1,38 @@
+Exercício 3: 
+    Você tem um baralho com todas as cartas do mesmo naipe, embaralhado.
+    Escreva um procedimento passo a passo para colocar essas cartas em ordem
+    (da menor para a maior), para que possamos usar uma busca mais eficiente pelas cartas.
+
+Considerar A = 1
+Enfileire as cartas a fim de ver o valor de cada carta
+Reserve dois espaços para separar as cartas em dois grupos
+Lembrar REFERENCIA = Valor máximo das cartas dividido por 2
+
+    Colocar a carta de REFERENCIA no centro da mesa
+    Lembrar que grupo 1 está no lado esquerdo da carta de REFERENCIA
+    Lembrar que grupo 2 está do lado direito da carta de REFERENCIA
+    
+    ENQUANTO (houver cartas no monte) REPETIR
+        Pegar uma carta do monte
+        SE (valor da carta < REFERENCIA)
+            Lembrar que POSICAO ATUAL é igual a 1
+            SE (houver carta no grupo 1)(valor da carta da POSICAO ATUAL < valor da carta do MONTE)
+            
+
+        SENÃO
+            Enfileirar no grupo 2
+    
+Tarefa: 
+Grupo D
+Data: quinta-feira
+    Buscar um método de ordenação, entender e apresentar em grupo.
+
+Temas
+A Merge Sort
+B Heap Sort
+C Bubble Sort
+D Quick Sort
+E Selection Sort
+F Inserction Sort 
+
+
