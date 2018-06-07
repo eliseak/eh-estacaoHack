@@ -1,3 +1,134 @@
 body{
-    margin: 0; /* Deixar sempre definido - pois o padrão é ter uma pequena margem*/
+    max-width: 600px;
+    margin: 60px auto 0; 
+    font-family: sans-serif;
+    line-height: 1.5;
+
+    /* Line-height
+    Valor: 
+    1 = 100% (padrão)
+    1.5 = 150%
+
+    /* Fonte 
+    Serif = destaque, lugares impressos (testos grandes)
+    
+    /* Deixar margin sempre definido - pois o padrão é ter uma pequena margem
+    
+    /* Margin
+    1 = em cima; 
+    2 = em cima, lados; 
+    3 = em cima, lados, em baixo; 
+    4 = em cima, direita, em baixo, esquerda (sentido horário)*/
+}
+
+h2{
+    border-top: solid 5px lightsteelblue;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    /* Letter-spacing: Espaço entre as letras
+
+    /*
+        Não utilizar br/hr (tags que criam linha) no HTML
+    */
+}
+
+h2 span {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: lightsteelblue;
+    display: inline-block;
+    margin-left: 280px;
+    /* display: span não tem margin pois é inline
+    /* font-family:
+        É utilizado vários nomes de fonte, pois se o pc não encontrar o primeiro usará o próximo (nesse caso, qualquer font com serifa)
+    /*
+    Encapsulamento seletor: Todos os spans que estão dentro h2
+    */
+}
+
+p{
+    color: steelblue
+}
+
+#first{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.green{
+    color: yellowgreen;
+}
+
+[nome=menor]{
+    border: dotted 1px plum;
+    text-align: justify
+
+    /*
+    Seletor CSS por atributo/propriedade
+    Não é muito utilizado
+    */
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
+ol{
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
+
+    /*
+        Não tira o paddin/margin dos ITENS da lista
+    */
+}
+
+li{
+    background-color: lavender;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+    /*
+        text-decoration: 
+        None: tira o sublinhado do texto
+    /*
+        Âncoras dentro de textos de lista
+    */
+}
+li a:visited{
+    color: green;
+}
+li a:hover{
+    color: dodgerblue;
+    font-size: 18px;
+}
+
+.final{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin: auto 15px; 
+
+    /*
+   margin auto: nesse caso, serve para cima e baixo
+    color: troca a cor do conteúdo (letra)
+    */
+}
+
+.final:nth-child(1){
+    background-color: dodgerblue;
+    /*
+    escolhe um filho específico de final
+    */
+}
+.final:nth-child(5){
+    background-color: darkviolet;
 }
