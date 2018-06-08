@@ -132,3 +132,45 @@ li a:hover{
 .final:nth-child(5){
     background-color: darkviolet;
 }
+
+/*
+    Posicionamento
+*/
+img{
+    border: lightgray 3px solid;
+    position: absolute;
+
+    /*
+    position: sticky;
+    top: 70px;
+    /*position: fixed;
+    bottom: 35px;
+    right: 35px;
+    z-index: -1;
+    /*
+     Position
+     - Relative: pode ser reposicionado em relação à posição original do elemento
+     - Static: padrão, em relação à organização original da página
+     - Fixed: posição em relação ao view port >> utilizados em headers fixos, botões para ir ao topo (fica parada na tela)
+     - Sticky: relative > fixed, se move em relação ao elementos que contem.
+     Não é utilizado nas laterais
+     Delimita até onde um elemento pode se mover no viewport
+     - Absolute: se posiciona em relação ao pai que não está configurado como static (fica parado em relação ao elemento pai
+
+
+     - left: 20px : 20px à esquerda do lugar que originalmente deveria estar
+
+     Toda vez que reposiciona um elemento, é criado uma nova camada de posicionamento. 
+     
+     Não quebra a estrutura da página no relative, no fixed é retirado
+
+
+     Não utlizar display-float
+
+     z-index: profundidade, padrão = 1. Dois elementos sobrepostos,
+    */
+}
+
+article{
+    position: relative;
+}
