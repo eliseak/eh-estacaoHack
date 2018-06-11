@@ -1,0 +1,19 @@
+FLEX BOX
+
+Display:
+- Inline: elementos ficam na mesma linha
+- Block: em baixo
+- Flex: elementons filhos ficam um do lado do outro
+
+Justify-content ↔
+Align-items ↕ 
+
+Elementos achatam no modo responsivo
+Flex-wrap: comportamento no responsivo
+
+- Jogo para estudar flex-box: Flex-box froggy
+
+==========================================
+Reprodução da página da UOL
+
+section > .maior{} /* Seleciona o Descendente direto*/

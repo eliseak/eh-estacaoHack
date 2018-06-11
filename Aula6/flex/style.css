@@ -1,0 +1,42 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    height: 300px;
+
+}
+
+section div{
+    width: 150px;
+    height: 150px;
+}
+
+section div:nth-child(1){
+    background-color: blue;
+}
+
+section div:nth-child(2){
+    background-color: blueviolet;
+}
+
+section div:nth-child(3){
+    background-color: violet;
+}
+
+
+section div:nth-child(4){
+    background-color: indianred;
+}
+
+section div:nth-child(5){
+    background-color: orangered;
+}
+
+
+section div:nth-child(6){
+    background-color: orange;
+}
+
+
