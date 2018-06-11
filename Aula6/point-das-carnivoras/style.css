@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    overflow: auto;
+    background-color: #139113;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*
+    overflow: auto; /*Elemento filho não empurra o elemento pai*/
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    color: whitesmoke
+}
+
+header input{
+    height: 30px;
+    width: 250px;
+    border: 0;
+    border-radius: 10px;
+    display: none;
+    padding-left: 10px;
+}
+
+header img{
+    padding: 12px;
+    background-color: white;
+    border-radius: 100%;
+    width: 25px;
+}
+
+.principal > div:nth-child(1){
+    width: 100%;
+}
+
+.principal > div:nth-child(1) > img{
+    width: 100%;
+}
+
+.principal > div:nth-child(2){
+    width: 100%;
+}
+
+.principal .destaque img{
+    width: 100%;
+}
+
+@media(min-width: 768px){
+    header input{
+        display: block;
+    }
+    header img{
+        margin-left: -40px;
+    }
+
+    .principal{
+        display: flex;
+    }
+    .principal > div:nth-child(1){
+        width: 70%;
+    }
+    .principal > div:nth-child(2){
+        width: 30%;
+    }
+}
+
+
+/*
+@media (min-width: 768px) 
+Toda a configuração do @media só funciona se tiver no mínimo 768px 
+(CSS é criado para o mobile, o media é para desktop no exemplo)
+
+Utilizar em alguns pontos
+
+/*
+Media query: aplicar configurações espcíficas conforme o tamanho*/
