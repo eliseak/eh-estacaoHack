@@ -17,3 +17,10 @@ Flex-wrap: comportamento no responsivo
 Reprodução da página da UOL
 
 section > .maior{} /* Seleciona o Descendente direto*/
+
+==========================================
+http://screensiz.es/
+
+Mobile first - celular > desktop
+
+Media query 
