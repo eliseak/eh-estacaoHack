@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+}
+section > .maior{
+    width: 50%;
+}
+section > .medio{ 
+    width: 30%;
+}
+section > .menor{ 
+    width: 20%;
+}
+
+section > .maior > .colunas{
+    display: flex;
+}
+
+.noticia{
+    padding: 5px;
+}
+
+.noticia > img{
+    width: 100%;
+}
+
+.noticia > .texto-pequeno{
+    color: red;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.anuncio > img{
+    width: 100%;
+}
