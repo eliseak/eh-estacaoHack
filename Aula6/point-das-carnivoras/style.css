@@ -9,6 +9,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
     /*
     overflow: auto; /*Elemento filho não empurra o elemento pai*/
 }
@@ -36,6 +37,14 @@ header img{
     background-color: white;
     border-radius: 100%;
     width: 25px;
+}
+
+.principal{
+    width: 1024px;
+    max-width: 100%;
+    margin: auto;
+
+    /* Embora tenha width 1024px, o "principal" só poderá ocupar no máximo o tamanho da janela*/
 }
 
 .principal > div:nth-child(1){
