@@ -1,11 +1,15 @@
 body{
     margin: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdUucqYRIyGqOGLIa8Ekm6tdF4WEZyNLPzXxThX_4szVuJdwsyjw");
+    background-size: cover;
 }
 
 img{
     margin: 10px;
     width: 300px;
-    animation-name: mover2;
+    
+    /*
+    animation-name: heart;
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-direction: alternate;
@@ -21,6 +25,16 @@ img{
     Mais comum, não utiliza transition
     animation: mover 2s;
     */
+}
+
+
+@keyframes heart{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
 
 @keyframes mover2{
