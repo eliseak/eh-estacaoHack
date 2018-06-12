@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+img{
+    margin: 10px;
+    width: 300px;
+    animation-name: mover2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    /*
+        animation-direction: alternate
+            Alterna a animação normal-reverso
+        animation-iteration-count: 3;
+            Repete a animação
+    /* animation-fill-mode: forwards
+    A animação não retorna à posição inicial quando encerra
+    /*
+    Mais comum, não utiliza transition
+    animation: mover 2s;
+    */
+}
+
+@keyframes mover2{
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    20%{
+        transform: translateX(200px) translateY(30px);
+    }
+    40%{
+        transform: translateY(130px) scale(1.5);
+    }
+    60%{
+        transform: translateX(50px) translateY(50px) rotate(360deg) scale(1);
+    }
+}
+
+
+@keyframes exemplo{
+
+    from{
+        transform: translateX(0);        
+    }
+    to{
+        transform: translateX(50px) translateY(100px) ;
+    }
+}
+
+@keyframes diminuir{
+
+    from{
+        box-shadow: none;
+    }
+    to{
+        box-shadow: 1;
+    }
+}
+
+@keyframes mover{
+
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100px);
+    }
+    /*
+    Keyframes: animação
+    mover: nome da animação
+    */
+}
+
+/*
+img{
+    width: 300px;
+    transition: .5s;
+    filter: grayscale(80%);
+}
+
+
+img:hover{
+    filter: none;
+    box-shadow: 10px 10px 10px black;
+    transform: scale(1.5);
+    transform: translateX(100px);
+    transform: rotate(360deg) translateX(100px);
+}
+*/
