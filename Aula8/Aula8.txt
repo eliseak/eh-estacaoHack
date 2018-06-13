@@ -1,0 +1,13 @@
+Servidores para publicação:
+    Tipos de servidor: 
+    - Compartilhado (GoDaddy, LocaWeb, HostGator)
+        Vem configurado
+        Configuração limitada
+
+    - Virtual: VPS (Google Cloud, AWS, Azure, Digital Ocean)
+
+    FileZilla - ftp
+
+    Domínio: 
+        registro.br
+        
