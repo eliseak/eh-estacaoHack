@@ -1,0 +1,109 @@
+Estabilidade de um algoritomo de ordenação:
+    Quando é necessário ordenar uma mesma lista várias vezes e a posição de números iguais são importantes
+
+============================================
+JS
+
+Strings:
+""
+''
+``
+
+============================================
+
+"Teste" - "T"
+>> Não existe o conceito de subtrair string >> o js tenta processar como número
+NaN - not a number
+
+"Teste".toUpperCase()
+============================================
+OPERAÇÃO bool
+Não !
+E   &&
+OU  ||
+============================================
+Operação de Comparação
+=== igual
+!== diferente
+============================================
+Casting
+Number()
+
+Number(true) - 1
+Number(false) - 0
+
+String()
+
+Boolean()
+
+Boolean(0) - false
+Boolean de qualquer outro número é true
+
+Boolean("idpowdi") - true
+Boolean("") - false
+
+Casting automático 
+Quando true && 50 
+> 50
+    50 é dado casting para boolean e retorna a última comparação (última operação)
+
+Quando true || 50
+> true
+    É visto apenas o primeiro true e encerra
+
+"Renan" > "Ana"
+> true
+
+"Renan" < "Inconstituciodnd"
+> false
+    Comparação em ordem alfabética
+
+=== precisa ser do mesmo tipo (proíbe o casting)
+==  tenta adapta a comparação
+
+0 == "0"
+> true
+
+0 == []
+> true
+
+"0" == []
+false
+
+Sempre comparar tipo e valor
+QUE EXISTAM
+
+NaN > 0
+> false
+
+null > 3
+> true
+
+===========================================================
+NaN === 2
+> false
+
+NaN !== NaN
+> true
+
+NaN === NaN
+> false
+
+NaN pode ser um string ou um boolean, por isso não pode ser comparado como igual entre si
+
+========================================================================
+null === 0
+> false
+
+null <= 0
+> true
+========================================================================
+typeof(NaN)
+> number
+
+typeof(null)
+> object
+
+
+
+
