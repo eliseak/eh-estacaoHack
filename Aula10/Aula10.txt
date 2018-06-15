@@ -1,0 +1,90 @@
+JS
+
+ES2015 - EcmaScript 2015
+
+Lista
+[]
+    Índices numerais
+
+let lista = [1, 2, 3, 5, true, "lalal"]
+
+Quando um item não faz parte da lista aparece undefined.
+
+lista + [3, 4]
+> "1,2,3,5,true,lalal3,4"
+    lista virou string e concaternou com a outra lista
+
+Para adicionar novos elementos final:
+    lista[lista.length] = 10
+    lista.push(10)
+
+Para inserir no começo:
+    lista.unshift(90)
+
+Não há como remover um item da lista:
+lista[3] = undefined
+
+Percorrer a lista com condicional: lista[i] !== undefined
+======================================================================
+Objetos
+{}
+    É possível definir o "índice" (texto, número)
+    >> Mapa/dicionário - key-value
+
+let cliente = {nome: "Ana", login: "ann", senha:"nananan"}
+
+Acesso aos dados:
+cliente["login"] 
+cliente.login
+
+Adicionar novos atributos:
+cliente["idade"] = 99
+cliente.vip = true
+
+Remover: 
+delete cliente.idade
+======================================================================
+Por que usar let?
+É possível criar várias vezes uma var com mesmo nome
+======================================================================
+Lista
+
+lista.push([1,2,3])
+lista[5][1]
+
+let locura = [1,2,3]
+locura.push(locura)
+    Como a variável é referenciada, locura[4] também terá 4 posições (mesma variável)
+======================================================================
+Abstrações
+======================================================================
+Navegador não está pronto para executar diretamente um script JS
+É necessário colocá-lo num HTML
+
+Script deve ser inserido no HEAD
+- É um metadado, pois não é algo que é exibido
+- É possível escrever no script no HTML, mas deve ser mantido separado
+
+Utilizar crase para concatenar exemplo:
+`Seja bem vindo, ${nome}`
+
+Template string
+${} é uma variável
+
+- Quando tiver variável utilizar ``
+- Outros textos ""
+
+=====================================================================
+Estruturas de Controle
+
+--- Paradigma procedural
+
+Tomada de decisão:
+    if (boolean) {código}
+
+let chovendo = true;
+if (chovendo) alert("Levar guarda-chuva");
+else alert("Não vai chover, mas leva igual");
+
+Laço:
+    while (boolean) {código}
