@@ -13,6 +13,7 @@
     calculada a partir da data de nascimento.
 
 */
+
 // Data dd/m/aaaa
 let dataHexa = [15, 7, 2018];
 
