@@ -11,3 +11,27 @@
     Pesquisar código para gerar o número secreto aleatoriamente.
     
 */
+
+let numero = Math.floor(Math.random() * (50 + 1));
+
+let chute = -1;
+
+let acertou = false;
+
+let texto = "";
+
+while (!acertou){
+    chute = Number(prompt(`${texto}Advinhe o número. Entre 0 e 50:`));
+    if (chute === numero){
+        acertou = true;
+        alert("Acertou!");
+    }
+    else{
+        if (chute < numero){
+            texto = "Número é MAIOR. ";
+        }
+        else{
+            texto = "Número é MENOR. ";
+        }
+    }
+}
