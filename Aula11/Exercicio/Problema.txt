@@ -1,0 +1,6 @@
+Refazer os exercícios da aula anterior:
+
+- Ao terminar um exercício feito com while, verifique se ele pode ser substituído por um for (tradicional, in, of).
+Se sim, faça o exercício novamente usando o for correto.
+
+- Transforme pelo menos dois dos seus exercícios em funções.
