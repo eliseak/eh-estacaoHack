@@ -12,12 +12,3 @@ for (let i = 1; i <= 10; i++){
     console.log(i);
 }
 
-// FOR para melhorar a iteração de listas (2015)
-// "for of" e "for in"
-
-let lista = ["James", "Nomes", "Wolfgang", "Golfinho", "Jurupinga", "Nomi", "Cleide", "Tainá"];
-
-// for in
-for (let item in lista){
-    console.log(item);
-}
