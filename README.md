@@ -13,8 +13,8 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 * PerfectPixel by WellDoneCode
 
 ## Resoluções dos Exercícios
-[Landing page - Agência Master](https://github.com/eliseak/agenciaMaster) - Exercício da aula 5
-[Reprodução de layout PSD - Notify](https://github.com/eliseak/eh-notify) - Exercício da aula 7 
-
+[Landing page - Agência Master](https://github.com/eliseak/agenciaMaster) - Exercício da aula 5  
+[Reprodução de layout PSD - Notify](https://github.com/eliseak/eh-notify) - Exercício da aula 7  
+  
 [estacaohack5](https://github.com/estacaohack5) - repositório do curso (professor)
 
