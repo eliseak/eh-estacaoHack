@@ -21,12 +21,14 @@ let t_nome = prompt("Digite o seu nome:");
 let t_login = prompt("Digite o seu login:");
 let t_senha = prompt("Digite o sua senha:");
 let t_dataNascimento = prompt("Digite o sua data de nascimento no formato dd/mm/aaaa");
+let t_premium = confirm("É usuário premium?");
 
 let usuario = {
     nome: t_nome,
     login: t_login,
     senha: t_senha,
     dataNascimento: t_dataNascimento.split("/"),
+    premium: t_premium,
 }
 
 idade = dataHexa[2] - usuario.dataNascimento[2];

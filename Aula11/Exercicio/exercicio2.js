@@ -11,8 +11,12 @@
     Pesquisar código para gerar o número secreto aleatoriamente.
     
 */
+function sortearNumero (){
+    return Math.floor(Math.random() * (50 + 1));
+}
 
-let numero = Math.floor(Math.random() * (50 + 1));
+
+let numero = sortearNumero();
 
 let chute = -1;
 

@@ -22,16 +22,22 @@
 
 */
 
+function criarEscada(tamanho, caracter){
+    for (let andar = 0; andar < tamanho; andar++){
+        texto += caracter;
+        console.log(texto);
+    }
+}
+
 let tamanho = Number(prompt("Digite o tamanho da escada:"));
 
 let caracter = String(prompt("Digite o caracter da escada:"));
 
 let texto = "";
 
-for (let andar = 0; andar < tamanho; andar++){
-    texto += caracter;
-    console.log(texto);
-}
+criarEscada(tamanho, caracter);
+
+
 
 
 
