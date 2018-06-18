@@ -19,7 +19,6 @@ let cliente = {
 }
 
 console.log("OBJETO: cliente");
-
 for (let atributo in cliente){
     console.log(`${atributo}: ${cliente[atributo]}`);
 }
