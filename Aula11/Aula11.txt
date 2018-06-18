@@ -23,3 +23,15 @@ saída
 ====================================================================
 
 - Escopo de função
+
+- Programação funcional
+
+- É possível fazer lista de funções
+
+- Exemplo: lista de funções
+Tabuleiro de banco imobiliário
+    Uma LISTA representa o tabuleiro com as casas, e em cada índice representa uma casa e possui uma função que recebe o jogador como argumento e trata a ação de cada casa.
+
+DOM - integra JS com HTML
+
+====================================================================

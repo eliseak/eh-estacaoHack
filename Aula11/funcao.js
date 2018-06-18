@@ -1,6 +1,8 @@
 
 // Assinatura: função nomeFunção (argumentos){ código }
 // Paramêtros: valor que preenche o argumento >> nomeFuncao(parametros)
+// Parâmetro: valor que vai no argumento
+// Argumento: da função
 
 // function sorteio(minimo=10, maximo=20) { 
 //>> define valores padrões para os argumentos quando não é informado na chamada
