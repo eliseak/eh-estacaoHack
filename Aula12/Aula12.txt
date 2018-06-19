@@ -72,3 +72,18 @@ Lê o script e executa depois que o HTML for carregado:
 --------------------------
 
 JS usado para responder eventos
+
+oncontextmenu: botão direito do mouse
+--------------------------
+Eventos temporizados
+
+Executa uma vez:
+setTimeout(funcao, tempo)
+setTimeout(aletar, 5000)
+
+Executa em intervalos de tempos
+setInterval (funcao, tempo)
+    - Retorna um id
+
+clearInterval(id);
+
