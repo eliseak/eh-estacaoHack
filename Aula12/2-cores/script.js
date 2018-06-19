@@ -37,7 +37,6 @@ function verificarFim(){
 
         setInterval(encerrar, 500);
         
-            
     }
 
 }
