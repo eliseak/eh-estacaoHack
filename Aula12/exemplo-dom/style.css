@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+    background-color: paleturquoise;
+}
+
+header nav a{
+    text-decoration: none;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+img{
+    margin: 20px;
+}
+
+#azul{
+    color:blue;
+}
+
+.bemGrande{
+    font-size: 80px;
+}

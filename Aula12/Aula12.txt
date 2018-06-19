@@ -1,0 +1,74 @@
+DOM - Document Object Model
+
+Árvore
+
+É possível mapear todo tag de html como um objeto do javascript
+
+h1
+- Conteúdo
+- id
+
+Query selector
+
+Document - nó raiz no javascript
+
+document.querySelector();
+- Realiza busca de elementos
+
+
+============================
+Selecionando nav do html:
+document.querySelector("header nav");
+
+let titulo = document.querySelector("#titulo");
+titulo.id
+>> titulo
+titulo.innerHTML
+>> Olá (Conteúdo do h1)
+
+É possível criar novos atributos nos objetos criados a partir do document
+
+Alterar ID dinamicamente:
+let titulo = document.querySelector("#titulo")
+titulo.id = "azul"
+
+Atribuir classes:
+titulo.classList.add("")
+
+- Seletor de ID sobreescreve a classe no CSS
+ID > Classe > tag
+
+- Seletor de várias classes: tem prioridade sobre seletor de uma classe
+Exemplo:
+.X .B > .X
+
+querySelector retorna um elemento (primeiro)
+- Quando não encontra retorna null
+
+querySelectorAll retorna uma lista
+- Quando não encontra retorna uma lista vazia
+
+let ancoras = document.querySelectorAll("nav a");
+for(let ancora of ancoras)
+    ancora.classList.add("crasse");
+
+==========================
+
+let header = document.querySelector("header");
+header.style //CSS
+
+    Todas as tags tem propriedade style
+
+header.style.margin = "30px 0"
+
+header.style.backgroundColor = "green"; //no CSS: background-color
+
+==========================
+document.querySelectorAll("img")[0].src
+==========================
+
+Lê o script e executa depois que o HTML for carregado:
+    <script defer src="script.js"></script>
+--------------------------
+
+JS usado para responder eventos
