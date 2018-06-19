@@ -2,6 +2,8 @@ JS
 
 ES2015 - EcmaScript 2015
 
+Variáveis com camelCase
+
 Lista
 []
     Índices numerais
