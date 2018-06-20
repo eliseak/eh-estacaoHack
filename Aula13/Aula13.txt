@@ -1,0 +1,2 @@
+Exercício:
+	Escolher um dos jogos fazer: jogo da memória, jogo da velha ou jogo da forca.
