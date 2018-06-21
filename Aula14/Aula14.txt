@@ -1,0 +1,36 @@
+Conteúdo:
+
+===================================================
+Front: processado na máquina do cliente
+Back: processado na máquina do servidor
+
+Cliente     <->     Servidor                <->     Banco de Dados 
+
+Aplicação           Aplicação                       DBMS - database management system
+Front-end           Back-end
+
+Site                HTML                            SQLServer, Oracle, MariaDB/MySQL
+app                 (Estático)                      MongoDB, Cassandra, Redis
+mobile              PHP, Java, C#, Python, 
+                    Ruby, GO, Javascript
+===================================================
+P2P - Peer to Peer
+
+Criptomoedas - outros computadores validam 
+===================================================
+
+Sistemas Distribuídos
+Cloud
+
+===================================================
+
+React   API (json)  MongoDB
+
+===================================================
+
+Node.js - backend
+
+Pode ser utilizado para criar scripts e alterar arquivos
+===================================================
+
+
