@@ -11,6 +11,9 @@ app.get('/pudim', (req, res) => {
     res.send('Sorvete é melhor');
 });
 
+app.get('/teste', (req, res) => {
+    res.send('<h1>Teste</h1>');
+});
 
 app.get('/sorvete', (req, res) => {
     res.send({
