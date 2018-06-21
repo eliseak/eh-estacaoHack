@@ -28,9 +28,42 @@ React   API (json)  MongoDB
 
 ===================================================
 
-Node.js - backend
+Node.js - "js para backend"
 
-Pode ser utilizado para criar scripts e alterar arquivos
+Pode ser utilizado para criar scripts e alterar arquivos...
 ===================================================
 
+Framework para publicação: Express
 
+Instalar: npm install
+
+npm init
+
+npm express 
+===================================================
+package.json
+Descreve o projeto 
+Tem as dependências do projeto (bibliotecas)
+    - Por meio dele, não é necessário subir os pacotes no repositório... Apenas utilizar o comando npm install na pasta do projeto
+
+Documentação:
+expressjs.com
+===================================================
+
+REST - json (objetos de js)
+
+SOAP - XML
+
+===================================================
+Protocolo HTTP
+
+HEADER
+    Status - 300(ok), 404... >> HTTP Cats
+    Method - GET, POST
+BODY
+    (HTML...)
+
+===================================================
+
+Criar .gitignore
+    node_modules    
