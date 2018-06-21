@@ -4,7 +4,8 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 ## Conteúdo
 * HTML
 * CSS
-* JavaScript
+* javascript
+* Node.js
 
 ### IDE
 * Visual Studio Code
