@@ -65,5 +65,10 @@ BODY
 
 ===================================================
 
-Criar .gitignore
+Criar .gitignore: arquivos que não vão para repositório 
     node_modules    
+
+Usar portas maiores 1024
+
+Porta convencional de teste 3000, 4000
+API 8080....
