@@ -17,8 +17,8 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 * PostMan
 
 ## Resoluções dos Exercícios
-[Agência Master](https://github.com/eliseak/eh-agenciaMaster) (Aula 5) - Landing page  
-[Notify](https://github.com/eliseak/eh-notify) (Aula 7) - Reprodução de layout PSD  
-[Menu Hamburguer](https://github.com/eliseak/eh-menuHamburguer) (Aula 12) - Animação em CSS e javacript  
+[Agência Master](https://github.com/eliseak/eh-agenciaMaster) - Landing page (Aula 5)  
+[Notify](https://github.com/eliseak/eh-notify) - Reprodução de layout PSD (Aula 7)  
+[Menu Hamburguer](https://github.com/eliseak/eh-menuHamburguer) - Animação em CSS e javacript (Aula 12)  
   
 [estacaohack5](https://github.com/estacaohack5) - Repositório dos professores  
