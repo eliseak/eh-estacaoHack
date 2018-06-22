@@ -1,14 +1,31 @@
 {
-    "titulo":"Personagem A",
-    "nome": "Frozen Däzs",
-    "idade": 20,
-    "profissão": "médico",
-    "FOR": 14,
-    "CON": 8,
-    "POD": 8,
-    "DES": 14,
-    "APA": 9,
-    "TAM": 14,
-    "INT": 14,
-    "EDU": 14
+    "titulo":"Resumo dos Status",
+    "personagens":[
+        {
+            "nome": "Frozen Däzs",
+            "idade": 20,
+            "profissao": "médico",
+            "FOR": 14,
+            "CON": 8,
+            "POD": 8,
+            "DES": 14,
+            "APA": 9,
+            "TAM": 14,
+            "INT": 14,
+            "EDU": 14
+        },
+        {
+            "nome": "Vanilla Däzs",
+            "idade": 19,
+            "profissao": "diletante",
+            "FOR": 13,
+            "CON": 13,
+            "POD": 16,
+            "DES": 15,
+            "APA": 15,
+            "TAM": 10,
+            "INT": 14,
+            "EDU": 13
+        }
+    ]
 }
