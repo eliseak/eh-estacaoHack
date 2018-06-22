@@ -1,5 +1,5 @@
 {
-  "name": "exercicio",
+  "name": "exercicio2",
   "version": "1.0.0",
   "description": "",
   "main": "exercicio2.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "exceljs": "^1.4.13",
     "express": "^4.16.3"
   }
 }
