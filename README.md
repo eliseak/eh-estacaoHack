@@ -10,8 +10,11 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 ### IDE
 * Visual Studio Code
 
-### Extensões
+### Extensões e Softwares Auxiliares
 * PerfectPixel by WellDoneCode
+* ColorZilla
+* JSON Formatter
+* PostMan
 
 ## Resoluções dos Exercícios
 [Landing page: Agência Master](https://github.com/eliseak/eh-agenciaMaster) - Exercício da aula 5  
