@@ -1,0 +1,26 @@
+Correção da aula 14
+============================================
+
+Banco de dados
+
+MongoDB - NoSQL
+    Documents e collection (vários documents)
+
+    Um banco pode ter várias collections
+
+Community server
+
+Executar: (servidor)
+    c:\Program Files\MongoDB\Server\3.6\bin\mongod.exe
+
+Criar:
+    c:\data\db\
+
+Adicionar path:
+    c:\Program Files\MongoDB\Server\3.6\bin
+
+Interface:
+    Robo3t
+
+Biblioteca para conectar mongo com express:
+    npm install express-mongo-db
