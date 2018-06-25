@@ -57,3 +57,9 @@ app.post('/churro', (req, res) => {
 });
 
 app.listen(3000);
+
+/*
+npm install cors
+
+app.use(CORS);
+*/
