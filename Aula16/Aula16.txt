@@ -1,0 +1,23 @@
+﻿Exercício: construir API
+
+DevOps
+
+CORS - Cross Origin Resource Sharing
+
+APIs REST
+
+POST
+PUT - se há uma "informação no endereço" : enviar dados para um endereço específico
+
+Validação no backend
+
+============================
+
+erro de cliente - 400
+if (req.body.email.indexOf('@') === -1){
+    res.status(400).send....
+}
+
+Biblioteca de validação: Mongoose
+
+npm nodemon -g install
