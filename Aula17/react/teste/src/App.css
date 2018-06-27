@@ -1,0 +1,15 @@
+header{
+  height: 200px;
+  background-color: rgba(128, 255, 0, 0.835);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rosa{
+  color: rgb(255, 143, 143);
+}
+
+h1{
+  color: rgb(0, 110, 255);
+}

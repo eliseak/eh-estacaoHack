@@ -1,0 +1,52 @@
+React
+
+npm install -g create-react-app
+
+>> Ferramenta para criar projetos: -g
+
+Criar novo projeto React: 
+    create-react-app teste
+
+Framework: conjunto de funções de uma linguagem
+    - facilitador
+    - jquery, react, angular
+
+    - Criar páginas dinâmicas mais organizadas
+
+
+    npm start
+
+Desenvolver em src:
+    Isolar ambiente de desenvolvimento e publicação
+
+Linguagem jsx
+
+CSS do React é igual ao utilizado nas outras aulas
+
+App.test.js = teste unitário
+
+registerServiceWorker = ~~~app.listen~~~
+
+index.js ~>
+
+===========================================
+Classes e instâncias
+
+- Criar classes que representam partes do html
+
+- Todos os objetos de React possuem uma mesma superclasse > Componentes
+
+Todo componente:
+    class ComponenteCriado extends Component {
+        //Método essencial:
+        render() {
+
+Dentro da classe não é necessário escrever "function"
+
+HTML:       jsx:
+class       className
+            permite passar variáveis nos atributos html
+
+Todas as tags DEVEM ser fechadas no React. 
+O método render nunca é executado >> React DOM executa o método
+    Retorna uma única tag (encapsulador)
