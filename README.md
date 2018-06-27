@@ -20,5 +20,6 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 [Agência Master](https://github.com/eliseak/eh-agenciaMaster) - Landing page (Aula 5)  
 [Notify](https://github.com/eliseak/eh-notify) - Reprodução de layout PSD (Aula 7)  
 [Menu Hamburguer](https://github.com/eliseak/eh-menuHamburguer) - Animação em CSS e javacript (Aula 12)  
+[Jogo da Memória](https://github.com/eliseak/eh-jogo-da-memoria) - Jogo em javascript (Aula 13)
   
 [estacaohack5](https://github.com/estacaohack5) - Repositório dos professores  
