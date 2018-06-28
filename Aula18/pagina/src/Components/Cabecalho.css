@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: sans-serif;
+    color: rgb(171, 255, 44);
+}
+
+header{
+    text-align: center;
+    background-color:dodgerblue;
+}

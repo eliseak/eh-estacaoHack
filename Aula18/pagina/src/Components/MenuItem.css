@@ -1,0 +1,12 @@
+a.menuItem{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18pt;
+    color: slateblue;
+    transition: 0.5s;
+}
+
+a.menuItem:hover{
+    color: palevioletred;
+    transform: scale(1.3);
+}

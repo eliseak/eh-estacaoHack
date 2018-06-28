@@ -1,0 +1,89 @@
+React
+
+Cada componente tem o seu CSS
+
+Controle de instância: 
+
+PROPS = propriedade exclusiva da instância
+
+ Se undefined >> false, verifica o segundo: string com conteúdo >> false 
+    href={this.props.endereco || "http://www.pudim.com.br"}
+
+"pudim.com.br" vira valor padrão para href caso this.prop.endereco não for informado
+
+O responsável pela props de um componente é o componente pai
+    >> O próprio componente não consegue modificar o props 
+    (Imutável)
+
+STATE = 
+    Evento: troca de estado 
+
+========================
+    Máquina de estado
+
+Exemplo: barra lateral
+
+Estados:
+                clique
+                <--
+    visível             invisível <----
+                -->
+                clique
+
+Regras: clique
+
+Cada componente(que tem estado) é responsável pelo seu próprio estado
+
+========================
+
+Passos para instanciar um Componente:
+
+- O componente é construido - constructor() >> props construídas
+- Preparação para montagem - componentWillMount() >> prepara componente para ser mostrado na tela
+- Render
+- Pós-montagem >> componentDidMount()
+
+
+    O estado de um componente não pode ser trocado no Render
+
+
+=======================
+
+Todo componente tem props, mas não tem state 
+    Se não definido:
+    - props = undefined
+    - state = null
+
+
+This é quem cria a função
+==================================
+function A
+this.a...
+"this" é quem executa a função 
+
+() => {}
+Arrow function 
+"this" é quem criou a função
+==================================
+PADRÕES DE PROJETO
+
+Componentes tem tipos diferentes: lógicos e visíveis
+    Devem ser separados
+
+ ----------------------
+|  Login  |||Cadastro|||
+| --------------------------
+| NOME  ___________         |
+| EMAIL ___________   |OK|  |   -> Componente tela login
+| SENHA ___________         |
+ --------------------------- 
+
+-> Componente tela login
+    - tela escolha >> lógico
+        - botao (login)    >> visual
+        - botao (cadastro) >> visual
+    - form
+
+- Componentes visíveis são stateless (sem estado)
+    - Todas as trocas de estado devem ser feitas em componentes lógicos
+    - Stateful: quem tem state

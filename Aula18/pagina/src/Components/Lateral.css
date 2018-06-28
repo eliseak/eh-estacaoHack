@@ -1,0 +1,19 @@
+#lateral{
+    position: fixed;
+    left: 0;
+    background-color: lightgrey;
+    width: 25vw; /*25% da tela disponível*/
+    height: 100vh;
+    transition: 0.5s;
+    transform: translateX(calc(-25vw + 100px));
+}
+
+button{
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+#lateral.visivel{
+    transform: translateX(0);
+}
