@@ -9,7 +9,7 @@ class Formulario extends Component {
 
 
   render() {
-    if (this.state.atual === 'login')
+    if (this.props.tela === 'login')
       return (<FormularioLogin />);
     
     return (<FormularioCadastro />);

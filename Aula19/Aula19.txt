@@ -3,3 +3,18 @@ Criado formulários de cadastro e login
 Selecionar um botão e trocar o formulário
 
 É possível passar um função como props
+
+Transferência de estado:
+
+Não tem comunicação entre irmãos, nem comunicação de filho para pai
+ Controle precisa comunicar com Formulário para mudar de estado
+
+ - Retirado estado do form
+ - Estado fica no pai >> estado faz parta da aplicação (App)
+
+- Criar arrow function para this criar a função e NÃO executar a função
+
+===========================
+
+state - dentro do componente
+props - passar para outro componente

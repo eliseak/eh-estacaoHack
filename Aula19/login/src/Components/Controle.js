@@ -7,8 +7,8 @@ class Controle extends Component {
   render() {
     return (
       <div id="controle">
-        <Botao texto="Cadastro" />
-        <Botao texto="Login" />
+        <Botao texto="Cadastro" clicar={this.props.cadastro} />
+        <Botao texto="Login" clicar={this.props.login} />
       </div>
     );
   }
