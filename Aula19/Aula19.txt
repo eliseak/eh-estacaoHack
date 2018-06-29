@@ -1,3 +1,8 @@
+Aula: 
+    login - React
+    acessoAPIs - fetch (js)
+
+==========================
 Criado formulários de cadastro e login
 
 Selecionar um botão e trocar o formulário
@@ -18,3 +23,20 @@ Não tem comunicação entre irmãos, nem comunicação de filho para pai
 
 state - dentro do componente
 props - passar para outro componente
+
+===========================
+
+API - padronização de informação
+
+JSON - stringss, forma similar de escrever um obj
+
+fetch >~~~~> PostMan
+
+Node não tem fetch
+===========================
+
+toddmotto - tem um repositório com lista de APIs públicas
+
+Auth
+apiKey >> tem que solicitar uma chave no site
+OAuth >> tem uma autenticação padrão que vão no header
