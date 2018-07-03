@@ -6,7 +6,7 @@ import PerfilCliente from './Components/PerfilCliente';
 class App extends Component {
   render() {
     return (
-      <PerfilCliente />
+      <PerfilCliente/>
     );
   }
 }
