@@ -22,7 +22,6 @@ class Lista extends Component {
   render() {
     return (
       <section id="lista">
-        <p>{this.state.cliente.email}</p>
         <PerfilCliente nome={this.state.cliente.nome} email={this.state.cliente.email}/>
           
       </section>
