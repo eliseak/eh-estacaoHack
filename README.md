@@ -6,7 +6,7 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 * CSS
 * javascript
 * Node.js
-* MondoDB
+* MongoDB
 * React
 
 ### IDE
