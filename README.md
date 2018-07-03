@@ -16,6 +16,11 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 * JSON Formatter
 * PostMan
 
+## Placeholders
+* [PlaceKitten](https://placekitten.com/) - Imagens  
+* [CatIpsum](http://www.catipsum.com/) - Textos  
+* [toddmotto/public-apis](https://github.com/toddmotto/public-apis) - lista de APIs públicas  
+
 ## Resoluções dos Exercícios
 [Agência Master](https://github.com/eliseak/eh-agenciaMaster) - Landing page (Aula 5)  
 [Notify](https://github.com/eliseak/eh-notify) - Reprodução de layout PSD (Aula 7)  
