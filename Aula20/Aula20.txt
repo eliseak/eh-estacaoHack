@@ -1,9 +1,10 @@
 Consulta à API quando a página carregar no React:
 
-    - ComponentDidMount -> Componente já montou...
+    - componentDidMount -> Componente já montou...
 
     - Se colocar antes e o fetch falha, dará erro e o componente não será montado.
 
     - Utilizar setState para inserir as informação da requisição à API
-
     
+    
+    - Biblioteca axios pula os passos then.... then...
