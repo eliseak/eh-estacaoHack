@@ -16,7 +16,7 @@ Este repositório foi criado com intuito de guardar o conteúdo das aulas da Aca
 * JSON Formatter
 * PostMan
 
-## Placeholders
+### Placeholders
 * [PlaceKitten](https://placekitten.com/) - Imagens  
 * [CatIpsum](http://www.catipsum.com/) - Textos  
 * [toddmotto/public-apis](https://github.com/toddmotto/public-apis) - lista de APIs públicas  
