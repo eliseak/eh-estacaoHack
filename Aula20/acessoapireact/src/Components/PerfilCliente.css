@@ -1,0 +1,10 @@
+section #perfilCliente{
+    margin: 0;
+    width: 50vw;
+    height: 20vh;
+    background-color: lightcyan;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}

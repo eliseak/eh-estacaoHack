@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import PerfilCliente from './Components/PerfilCliente';
+import Lista from './Components/Lista';
 
 class App extends Component {
   render() {
     return (
-      <PerfilCliente/>
+      <Lista/>
     );
   }
 }
